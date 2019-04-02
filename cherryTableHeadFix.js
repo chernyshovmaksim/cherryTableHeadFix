@@ -44,7 +44,6 @@
 								for (let i = 0; i < arrTh.length; i++) {
 									let thWidth = arrTh[i].offsetWidth
 									arrClonedTh[i].style.cssText = "min-width: " + thWidth + "px;"
-									console.log(arrClonedTh[i])
 								}
 							}
 						}
